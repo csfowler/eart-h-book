@@ -1,0 +1,402 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "EART-H",
+    "section": "",
+    "text": "This is the story of the Experimental Alternative Reality for Terra instance H or EART-H for short. In the pages that follow I will attempt to lay out the structure of a world of my imagination that I intend to function as a sandbox for thinking through ideas about how institutions function and how individual identity informs social formation. Specifically, I want to explore two changes in reality related to power and speciation. In the first exploration, I have imagined a world where power fluctuates in complex ways raising up some individuals on one day and bringing them low on another. This irregularity makes it difficult to defend territory over the long term and acts as a barrier to the formation of the hierarchical systems that have dominated agricultural societies in both the real world and in so many imagined worlds as well. In the second exploration, I have imagined a system of genetics in which species above a certain level of neurological complexity (mostly humanoids) are born with a combination of their parents’ phenotypes and the phenotypes of whatever insect or animal species happened to be nearby during their conception. My intent here is to think through the way the external markers associated with race are socially constructed and how hierarchies of identity are formed—in the context of incredible diversity not just of appearance, but also in change across generations.\nThe world I build in the following chapters is an exercise in thinking through these two issues, but also a thought experiment of my own to try and define the minimum details necessary to programmatically build a new world. I draw liberally on ideas from geography (for example in the distribution of healing magic) without worrying too much about getting it right. I hope that playing through this world as a campaign where we can experience its people, societies, and conflicts, will help iron out all the things I got wrong at the start.\nThis work is structured as follows:\n\nChapter 2: Origins - The creation myth and fundamental cosmology of EART-H\nChapter 3: Physical Geography - The continents and their placement\nChapter 4: The Lunar System - The three moons and their magical influences\nChapter 5: Climate - a world if only insolation, altitude, and proximity to water mattered\nChapter 6: Divine Intervention - In the absence of gods, who can you call on\nChapter 7: Downscaling - It turns out it is not so simple to go from global to local\nChapter 8: Population - From sentience to cities, a model of social growth and settlement establishment\nChapter 9: Trade and Connection - Settlements form, but trade and connection makes them grow\nChapter 10: The Map - I am not much of a cartographer, but I tried\nChapter 11: Speciation - My initial thoughts on speciation in this world\n\n\n\nThe Secret Text\nThe EART-H project adopts a practice from a fantasy series that I enjoy. In that world reading is understood as a feminine art and it is the practice among men of means (who cannot read or write themselves to have women read to them for pleasure and edification. All that patriarchy aside, what I like about the way it is represented in the story is that texts all have extensive footnotes made by generations of female readers that offer extensive and learned commentary on the texts themselves. These footnotes are withheld from the oral presentation of the works and the men know nothing about them. The footnotes create an entire alternative way of experiencing the text and encompass debates on the origins, authenticity, and historical context of the main text. I adopt a version of this practice here with the main narrative of EART-H presented in the chapters and a hidden set of commentaries presented as footnotes at the bottom of each page. You can choose to read them or not as you see fit.\nEverything you see here was generated in R based on publicly available data. I used Claude.ai extensively in the generation of code, especially html, but have tried to keep it away from the text as much as possible.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
+    ]
+  },
+  {
+    "objectID": "01-origins.html",
+    "href": "01-origins.html",
+    "title": "2  Origins",
+    "section": "",
+    "text": "2.1 In the Beginning…\nI am C. Ezra Stiles, peripatetic cartographer of the Golden Fountain on Kiliman. I record my thoughts here in the spirit of scholarship that has long motivated my order. Much of what I write is speculation, though such is arguably true of all that we call knowledge. My thanks to all those brave souls who continue to explore, invent, and document. Mistakes are most assuredly my own.\nAs far as we know the Univers[ity] was always in existence. Our story begins when the entity [Profes]Sor [Fow]Ler had an idea. From the idea and from the power granted to Sor Ler hundreds of worlds were created all of them different but strangely similar.\nEARTA and EARTB were the first to emerge and their stories are told elsewhere for now. EARTH, where our story takes place, was among the very first and the care of its design reveals the art of far more than a mere clockmaker. Sor Ler appointed RA to oversee EARTH and in the early days it is said that the entity was ever present; building the mountains, filling the seas, shaping the earliest creatures to roam the world.\nOral histories passed down from generation to generation speak of late nights when the mottled face of RA could almost be perceived in the heavens. Whether these stories are apocryphal or have, within them, a kernel of truth is unknown. What is known is that centuries if not millenia have passed in which EARTH has not known direct action by RA.\nThough some still burn offerings to this vanished entity, the world itself has moved on playing out the magnificent experiment that this being orchestrated with no understanding of how or why it continues to run.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Origins</span>"
+    ]
+  },
+  {
+    "objectID": "01-origins.html#the-great-experiment",
+    "href": "01-origins.html#the-great-experiment",
+    "title": "2  Origins",
+    "section": "2.2 The Great Experiment",
+    "text": "2.2 The Great Experiment\nThe nature of RA’s experiment remains one of the great mysteries of EARTH. Scholars debate whether the complex interplay of the three moons was intentional, whether the distribution of magical energy across the planet serves some greater purpose, or whether EARTH has simply evolved beyond its creator’s original vision. What is not in doubt is that this is an experiment. The landscape is littered with dozens if not hundreds of idiosyncratic places and items that clearly have their origins elsewhere. Some of the places, like those that offer healing, are patterned with such regularity that some plan must be at work, but the nature of that plan remains opaque. Numerous cults have risen and fallen over the centuries purporting to predict the end of the experiment and thus the end of EARTH itself, but so far the experiment continues at its own pace and with its own mysterious logic.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Origins</span>"
+    ]
+  },
+  {
+    "objectID": "01-origins.html#the-vanishing",
+    "href": "01-origins.html#the-vanishing",
+    "title": "2  Origins",
+    "section": "2.3 The Vanishing",
+    "text": "2.3 The Vanishing\nHistorical records suggest that RA’s presence began to wane approximately 2,000 years ago, though the exact timeline remains disputed. The last confirmed manifestation occurred during what is now called the “Extension,” when several major magical artifacts were created simultaneously across different continents. While most processes on EARTH seem to have proceeded without interruption, there are several parts of the planet where ecosystems or natural processes seem to have gone wild in the absence of direct influence. These places are a focus for both scholars and adventurers because their obvious flaws are thought to shed light on underlying logics of the experiment, while also producing higher than average numbers of inexplicable phenomena.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Origins</span>"
+    ]
+  },
+  {
+    "objectID": "01-origins.html#today",
+    "href": "01-origins.html#today",
+    "title": "2  Origins",
+    "section": "2.4 Today",
+    "text": "2.4 Today\nEARTH in the year 2026 is a complex and diverse world. It is characterized by chaos more than order with the surges and ebbs of lunar power making long term projects difficult to complete. Societies have adapted to this instability in various ways, with some embracing nomadic lifestyles while others have developed intricate systems of alliances and trade to mitigate the risks associated with power fluctuations. No one civilization dominates the planet, and there are vast reaches that remain lightly settled. Cartographers seeking the wisdom of the healing sites have visited most corners of the world in their quest to unravel the order and disorder of that system, but many remote locations have seen fewer than a dozen visitors in centuries.\n\n\nThis project has emerged from my desire to create a world in which I can explore ideas about power, identity, and social formation. I am increasingly intrigued by the literature on Futurisms, and the claim that emerges from that work that we have difficulty imagining just futures because we are so closely tied to the present and the institutions we already have in place. By creating a world with different rules; particularly related to property rights and racial identity, I hope to be able to explore these ideas in a way that is less bound by my own experiences.\nConcurrently, I have become intrigued by the idea of storytelling as a way to teach students about geography and about the topics of population, economy, and institutions that I teach in my classes. I am increasingly aware of the limitations of lectures conducted in front of students who are only partially engaged. I worry about a world in which ideas are simply something that gets looked up or sourced from an AI instead of things that are chewed on, tested, and refined. My hope is that this project can serve as a starting point for a new way of teaching students–through stories and through play. My intent is to use these footnotes moving forward as a place to make connections between the academic literature that motivates both this project and the implementation here. Ultimately, I am not sure whether I am making a game, a book, or a syllabus. Perhaps all three.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Origins</span>"
+    ]
+  },
+  {
+    "objectID": "02-physical-geography.html",
+    "href": "02-physical-geography.html",
+    "title": "3  Physical Geography",
+    "section": "",
+    "text": "3.1 The Fundament\nSome of the earliest legends and fragments of legends claim that the entirety of EARTH’s landmass was built by RA during a brief period known as “The Funding.” In the modern day this has led scholars and sages to refer broadly to the stuff that EARTH is made of as ‘fundament.’ Explorers have noted for centuries that EARTH is made up of highly structured systems of mountains, rivers, valleys, and streams with similarities in terms of geology and topography that can extend for miles and then, suddenly, change. These places of change are thought by some to be holy, for in their study we might come to understand something of RA’s plan for EARTH. Whether that is true or not is something we can only guess at, but in this chapter I outline the story of creation as the most reliable scholars have pieced it together….",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Physical Geography</span>"
+    ]
+  },
+  {
+    "objectID": "02-physical-geography.html#in-the-beginning.",
+    "href": "02-physical-geography.html#in-the-beginning.",
+    "title": "3  Physical Geography",
+    "section": "3.2 In the beginning….",
+    "text": "3.2 In the beginning….\nIn the beginning there was only water. Don’t ask where it came from or why sea level didn’t rise when huge continents appeared out of nowhere, it just didn’t.\n\n\n\n\n\n\nFigure 3.1: The primordial EARTH, showing nothing but endless ocean before RA’s work began.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Physical Geography</span>"
+    ]
+  },
+  {
+    "objectID": "02-physical-geography.html#the-first-fundament",
+    "href": "02-physical-geography.html#the-first-fundament",
+    "title": "3  Physical Geography",
+    "section": "3.3 The First Fundament",
+    "text": "3.3 The First Fundament\nIt is believed that RA began creation of EARTH’s fundament by recreating something of their homeland and placing it in the center of this new space. Its position and its centrality in RA’s myth is why it is called Centre and why the residents of this landmass attribute a holiness to their land of high ridges and deep valleys.\n\n\n\n\n\n\n\n\n\n\n\n(a) Raw Material\n\n\n\n\n\n\n\n\n\n\n\n(b) Transformed\n\n\n\n\n\n\n\nFigure 3.2: Centre’s imagined transformation from its source geography (left) to its final placement at the heart of EARTH (right).\n\n\n\n\n\n\n\n\n\nFigure 3.3: Centre, the first landmass to emerge from the Fundament, sits at the heart of EART-H.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Physical Geography</span>"
+    ]
+  },
+  {
+    "objectID": "02-physical-geography.html#tusque",
+    "href": "02-physical-geography.html#tusque",
+    "title": "3  Physical Geography",
+    "section": "3.4 Tusque",
+    "text": "3.4 Tusque\nThe second continent to emerge from the Fundament was Tusque, a land of rolling hills and vast plains. It is said that RA shaped Tusque to be a place of abundance, where olives and grapes adorned the hills and the soil was rich. How that worked out once planetary scale climate began to function is a story for another chapter, however.\n\n\n\n\n\n\n\n\n\n\n\n(a) Raw Material\n\n\n\n\n\n\n\n\n\n\n\n(b) Transformed\n\n\n\n\n\n\n\nFigure 3.4: Tusque’s imagined transformation from (left) to its placement on EARTH (right).\n\n\n\n\n\n\n\n\n\nFigure 3.5: The Prow is a jagged discontinuity where a narrow isthmus connects Centre and Tusque; some of the strongest evidence that these continents came from elsewhere.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Physical Geography</span>"
+    ]
+  },
+  {
+    "objectID": "02-physical-geography.html#salmon",
+    "href": "02-physical-geography.html#salmon",
+    "title": "3  Physical Geography",
+    "section": "3.5 Salmon",
+    "text": "3.5 Salmon\nThe third area to emerge from the Fundament was a wild land of steep canyons split by an enormous river. This river, known as the Great Divide, is said to have been carved by RA’s tears as they wept for the world they had created. The people in this region rely heavily on the river for their survival, and its unusually robust fish population supports a much denser pattern of settlement than the high elevation and arid landscape would otherwise suggest.\n\n\n\n\n\n\n\n\n\n\n\n(a) Raw Material\n\n\n\n\n\n\n\n\n\n\n\n(b) Transformed\n\n\n\n\n\n\n\nFigure 3.6: The Salmon region’s imagined transformation (left) to its stretched and rotated placement (right).\n\n\n\n\n\n\n\n\n\nFigure 3.7: The Salmon region juts far to the north almost to the pole.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Physical Geography</span>"
+    ]
+  },
+  {
+    "objectID": "02-physical-geography.html#then-in-quick-succession.",
+    "href": "02-physical-geography.html#then-in-quick-succession.",
+    "title": "3  Physical Geography",
+    "section": "3.6 Then in quick succession….",
+    "text": "3.6 Then in quick succession….\nYou get the idea, new continents appeared as if snatched from another world and took their place alongside those already there. Some were mountainous, some glaciated, others, flat and unadorned. Each had their own beauty though and the world of RA’s imagination was truly something to behold…\n\n\n\n\n\n\n\n\n\n\n\n(a) Raw Material\n\n\n\n\n\n\n\nFigure 3.8:  Banff\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(a) Raw Material\n\n\n\n\n\n\n\n\n\n\n\n(b) Transformed\n\n\n\n\n\n\n\nFigure 3.9: Stockholm\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(a) Raw Material\n\n\n\n\n\n\n\n\n\n\n\n(b) Transformed\n\n\n\n\n\n\n\nFigure 3.10: Adirondaq\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(a) Raw Material\n\n\n\n\n\n\n\n\n\n\n\n(b) Transformed\n\n\n\n\n\n\n\nFigure 3.11: The Fingers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(a) Raw Material\n\n\n\n\n\n\n\n\n\n\n\n(b) Transformed\n\n\n\n\n\n\n\nFigure 3.12: Kiliman\n\n\n\n\n\n\n\n\n\nFigure 3.13: The placement of these continents created something of an internal sea.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Physical Geography</span>"
+    ]
+  },
+  {
+    "objectID": "02-physical-geography.html#the-final-pieces-fall",
+    "href": "02-physical-geography.html#the-final-pieces-fall",
+    "title": "3  Physical Geography",
+    "section": "3.7 The final pieces fall",
+    "text": "3.7 The final pieces fall\nNearing the end, of their resources or arriving at some cosmic balance point, RA’s final contributions came in two huge continents, each much larger than what had come before. First, a massive polar continent with impossibly high mountains along its southern border. Next, almost as if RA had decided at the last moment that there needed to be more trees and lakes, a huge granite massif appeared; covering much of the Northeastern corner of the planet.\n\n\n\n\n\n\nFigure 3.14: The incredibly tall peaks of Amazonia could be glimpsed from miles and miles away, while Canada’s forests would ultimately come to be home for some of the largest population groups on EARTH.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Physical Geography</span>"
+    ]
+  },
+  {
+    "objectID": "02-physical-geography.html#the-world-so-far",
+    "href": "02-physical-geography.html#the-world-so-far",
+    "title": "3  Physical Geography",
+    "section": "3.8 The World So Far",
+    "text": "3.8 The World So Far\nAs RA’s work continued, the Fundament took shape, transforming from an endless ocean into a diverse world of mountains, valleys, rivers, and plains. With 80.77% of the surface still covered by water, EARTH now had ten distinct continents, each bearing its own character, shaped by divine intention and geological processes that scholars continue to study and debate.\n\n\nMy design for this section was drawn in part from the work of ______ whose presentation at NACIS in _____ gave me the idea for creating a fantasy landscape by twisting and altering real digital elevation data. Accessing the data is relatively easy it turns out, but not every place makes for a good continent. Then, once data is downloaded the real problems begin. Chief among these is dealing with movement of large landmasses across the dateline, and particularly in the polar regions.\nOne of the things I am most interested in is how these places appear when they are out of scale and facing very different climate conditions. Will an experience of the Finger Lakes be different when they are steep inlets to the sea? How will the region around the River of No Return Wilderness be experienced when it is placed up near the North Pole?",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Physical Geography</span>"
+    ]
+  },
+  {
+    "objectID": "03-lunar-system.html",
+    "href": "03-lunar-system.html",
+    "title": "4  The Lunar System",
+    "section": "",
+    "text": "4.1 Lunar Intensity\nThe planet EARTH has a unique geography driven by the tides of energy emitted by its three moons. Io, Ganymede, and Deos circle the planet in complex orbits, constantly interacting with the planet’s surface and creating a dynamic effect for the inhabitants. Where their light strikes the earth it charges plants, animals, and even the stones with a magical energy that can be harnessed for all sorts of purposes.\nEarth & Moon Orbits\n        Toggle Earth Rotation\n        Toggle Orbital Paths\n        Reset View\n    \n    \n        🔴 Io\n        🟢 Ganymede\n        🔵 Deos\n    \n\n\n\n\n\n\n\nFigure 4.1: EART-H and its three moons",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>The Lunar System</span>"
+    ]
+  },
+  {
+    "objectID": "03-lunar-system.html#the-three-moons",
+    "href": "03-lunar-system.html#the-three-moons",
+    "title": "4  The Lunar System",
+    "section": "4.2 The Three Moons",
+    "text": "4.2 The Three Moons\nEach moon emits a form of energy that careful practitioners can channel to create astonishing effects. These effects wax and wane with proximity of the moons to EARTH’s surface and so the inhabitants have learned to track the moons.\n\n4.2.1 Io - The Red Moon\nIo orbits with a highly inclined path and moves in retrograde, creating dramatic variations in magical intensity across different latitudes. Its energy is associated with transformation and change.\n\n\n4.2.2 Ganymede - The Green Moon\nGanymede follows a moderately inclined orbit its magic seems to last longer in inanimate objects than the other moons and several plant species seem to have adapted specifically to its pattern of movement–taking advantage of the charge it offers to grow during periods of peak exposure. The moon circles the earth slowly passing over the same point on the surface roughly every seven days. For this reason Ganymede is linked to growth, healing, and natural magic.\n\n\n4.2.3 Deos - The Blue Moon\nDeos has the most stable orbit and moves most slowly resulting in more intersections with the light patterns of the other moons. Its stability makes it ideal for calculating the passage of time and for this reason it is associated with time, memory, and divination magic.\n\n\n\n\n\n\n\n\nFigure 4.2: Moon orbital paths over the past week",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>The Lunar System</span>"
+    ]
+  },
+  {
+    "objectID": "03-lunar-system.html#lunar-energy-distribution",
+    "href": "03-lunar-system.html#lunar-energy-distribution",
+    "title": "4  The Lunar System",
+    "section": "4.3 Lunar Energy Distribution",
+    "text": "4.3 Lunar Energy Distribution\nThe moons have dramatically different levels of power based on how far they are from a point on the surface at any given time. At any one time half the world is dark to the light of each moon, and at any given time there may be places where no moonlight falls and places where the light of all three moons shines powerfully.\n\n\n\n\n\n\n\n\nFigure 4.3: Current lunar energy intensity across EARTH’s surface\n\n\n\n\n\nThe variability in magical power brought on by the shifting interactions of moonlight is one of the most crucial dynamics for understanding the evolution of EARTH. Different species and individuals within a species seem to have an affinity for different types of moonlight and this affinity can be trained over time, but with rare exceptions, affinity for one type of light limits capacity to interact with another form. In rare cases, individuals with especially powerful affinity for one form of light may actually be weakened by exposure to other forms of light.\nAt its most primal level highly adapted species will be most active when their adapted form of moonlight is strongest–going dormant or sheltering in holes or dens when they are at their weakest. The natural world has developed an almost infinite number of ways that species have captured advantageous niches by exploiting these power differentials and in some places there can be an extraordinary difference in visible flora and fauna based on the cycle of the moon.\nWhat is true for the plants and animals has also shaped the development pathways of sentient species. In some places power structures have developed with collaborative models reflecting the need for communities to hedge their bets against periods of weakness in one form of moonlight or another. Other societies have found ways to specialize and develop institutions linked to specific types of power, but these societies tend to favor mobility as a way to protect themselves during periods of weakness. In at least one case a group of powerful sorcerers produced a flying castle that moves across the landscape immediately under the blue moon; ensuring that their particular form of magic is always at its maximum potential despite the very slow pathway that the moon travels across the surface.\nLunar mathematics are a major area of study on EARTH as practitioners seek to predict the timing and intensity of moonlight at specific locations. The complexity of the interactions makes this a challenging task, but over time a number of heuristics have emerged that allow for reasonably accurate predictions of moonlight intensity at specific locations. These predictions are crucial for planning agricultural cycles, magical rituals, and even military campaigns.\n\n\n\n\n\n\n\n\nFigure 4.4: Annual mean lunar energy intensity\n\n\n\n\n\n\n\nThe power surges of the three moons are at the very heart of this project as it first took shape. I spend a lot of time in my classes thinking about how property rights shape the reality of our world. I have always wondered what the world would be like if it wasn’t so reliant on private property and the original idea for the moons was based on my wondering what it would take to make property rights a losing strategy for human settlement.\nMy thinking on this is drawn significantly from James Scott’s book Against the Grain [@scott]. In this book Scott argues that hunter gatherer societies were more resilient, had better nutrition, and spent less time laboring than agricultural societies in the early days of human plant cultivation. He argues that agriculture was not a priori superior to hunter-gatherer society, it was demonstrably worse, but that the hierarchy of the agricultural societies and the infrastructure of that hierarchy made them very effective at growth and better adapted to dealing with the needs of larger societies (especially the creation of institutions for managing internal conflict within larger and more complex socieities). Agriculture is not inevitable because it is better, it is inevitable because it expands better, keeps better records of its success, and gobbles up adjacent societies to function as labor in its production system.\nA side note I want to explore later is the degree to which Scott’s compelling narrative is consistent with current views in Anthropology. I have some sources (Duncan??) picked up in reading critiques of Harrari that suggest the story is much less simple\nAnyway, what would it take for a world to hold off the development of property rights that stem, seemingly inevitably, from agricultural production as a dominant form of human organization? My answer? Highly variable power so that the warlord of one day would be an easy mark the next day.\nBut what are the downstream effects of this change? If we cannot reliably guarantee the ability to control a particular piece of property, then why would we grow crops there? Someone could come along and simply take them at harvest time. Property has to become more mobile I think. Perhaps societies become more communal? In our world control of land generated wealth that was then available for use in trade. It returned rents that created generational wealth and long term inequalities that underpin almost every social injustice we have. What if land didn’t have this power? Would we have found other ways to create difference? This is one of the primary axes I want to explore in EARTH.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>The Lunar System</span>"
+    ]
+  },
+  {
+    "objectID": "04-climate-building.html",
+    "href": "04-climate-building.html",
+    "title": "5  Climate and Biomes",
+    "section": "",
+    "text": "5.1 The Climate of EARTH\nRA was not a climatologist but had a basic understanding of how heat, water, latitude, and altitude combined to create different biomes on the planet’s surface. From frozen polar wastes to lush tropical rainforests, the planet supports a remarkable variety of ecosystems.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Climate and Biomes</span>"
+    ]
+  },
+  {
+    "objectID": "04-climate-building.html#temperature-the-foundation-of-climate",
+    "href": "04-climate-building.html#temperature-the-foundation-of-climate",
+    "title": "5  Climate and Biomes",
+    "section": "5.2 Temperature: The Foundation of Climate",
+    "text": "5.2 Temperature: The Foundation of Climate\nTemperature is the fundamental driver of climate patterns. On EARTH, temperature varies systematically with latitude—warmest at the equator, coldest at the poles—and decreases with elevation due to atmospheric thinning.\n\n\n\n\n\nTemperature generation process from latitude-based baseline to final temperature distribution\n\n\n\n\n\n\n\n\n\nGlobal temperature distribution across EARTH",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Climate and Biomes</span>"
+    ]
+  },
+  {
+    "objectID": "04-climate-building.html#precipitation",
+    "href": "04-climate-building.html#precipitation",
+    "title": "5  Climate and Biomes",
+    "section": "5.3 Precipitation",
+    "text": "5.3 Precipitation\nPrecipitation patterns are more complex than temperature, influenced by latitude, ocean proximity, prevailing winds, topography, and temperature itself.\n\n\n\n\n\nPrecipitation generation process showing the cumulative effects of latitude, moisture availability, orographic effects, temperature coupling, elevation, and mesoscale variation\n\n\n\n\n\n\n\n\n\nAnnual precipitation patterns across EARTH\n\n\n\n\nThis combination of variables results in four major climate-scale zones:\n\nEquatorial Belt (2500+ mm): High rainfall driven by rising air masses\nSubtropical Deserts (&lt;250 mm): Descending air creates arid conditions\nTemperate Zones (800+ mm): Moderate rainfall from mid-latitude storms\nPolar Regions (300 mm): Low precipitation due to cold, dry air",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Climate and Biomes</span>"
+    ]
+  },
+  {
+    "objectID": "04-climate-building.html#the-biomes",
+    "href": "04-climate-building.html#the-biomes",
+    "title": "5  Climate and Biomes",
+    "section": "5.4 The Biomes",
+    "text": "5.4 The Biomes\nThe interaction of temperature and precipitation creates eight distinct biome types across EARTH’s surface. Each biome represents a unique combination of climatic conditions that support specific plant and animal communities.\n\n\n\n\n\nBiome distribution across EARTH",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Climate and Biomes</span>"
+    ]
+  },
+  {
+    "objectID": "04-climate-building.html#climate-statistics",
+    "href": "04-climate-building.html#climate-statistics",
+    "title": "5  Climate and Biomes",
+    "section": "5.5 Climate Statistics",
+    "text": "5.5 Climate Statistics\n\n\n\nBiome distribution across EARTH\n\n\nBiome\n% of Surface\n\n\n\n\nOcean\n84.3\n\n\nGlacial/Arctic\n1.1\n\n\nTaiga\n1.1\n\n\nDesert\n3.0\n\n\nGrassland\n6.2\n\n\nTemperate Forest\n1.2\n\n\nTropical Forest\n2.1\n\n\nMountainous\n0.3\n\n\nNA\n0.5\n\n\n\n\n\n\n\nPhysical geography is not my strong suit and I ended up relying heavily on AI to select plausible parameters for each stage of this climate framework. I am not entirely happy with the precipitation model which seems far more deterministic than I would like, but efforts to add noise were not sufficient to overcome the starting premises for rainfall without disrupting the broader patterns. It is my hope that the efforts at downscaling in a future chapter will add sufficient disruption to the patterns shown here to produce the variation and ‘naturalness’ I am aiming for. In the meantime, I leave the main components of my modeling strategy here for people with more climate knowledge than I to critique.\nThe temperature model incorporates three key factors:\n\nBase Temperature by Latitude: Using a quadratic relationship that gives approximately 32°C at the equator and -10°C at the poles\nElevation Adjustment: Applying a variable lapse rate that adjusts for local conditions\nRegional Variation: Adding local variations (±3°C) to create natural-looking temperature patches\n\nThe precipitation model incorporates six major components:\n\nLatitude Bands: ITCZ (Intertropical Convergence Zone) at the equator, subtropical dry zones, temperate wet zones, and polar dry zones\nOcean Currents: Warm currents increase coastal precipitation, cold currents decrease it\nMoisture Availability: Distance from oceans and large lakes affects available moisture\nOrographic Effects: Mountains create rain shadows on leeward sides and enhanced precipitation on windward slopes\nTemperature-Moisture Relationship: Warmer air holds more moisture\nElevation Effects: Very high elevations receive less precipitation due to thin air\n\nBiome is determined by temperature and precipitation:\nOcean Glacial/Arctic - Areas occur where temperatures consistently fall below -5°C. Taiga - Found in regions with temperatures between -5°C and 5°C and moderate precipitation (&gt;400mm). Temperate Forest - Requires temperatures between 5°C and 20°C with precipitation exceeding 750mm annually. Tropical Forest - These areas receive the highest rainfall and maintain warm temperatures year-round (&gt;20°C, &gt;2000mm precipitation). Grassland - Regions with moderate rainfall (250-750mm). Grasses, rather than trees, form the primary vegetation due to seasonal drought and temperatures between 5°C and 25°C. Desert - Arid landscapes with minimal precipitation (&lt;250mm). Extreme temperature swings between day and night characterize these harsh environments found in warm regions (&gt;5°C). Mountainous - High elevation areas (&gt;2000m). Alpine meadows give way to bare rock at the highest peaks. These override other classifications due to the extreme conditions created by elevation.\nNote that I attempted to generate biomes at rates proximate to their actual distribution on Earth. This required adding Canada to the global map to make up for a huge shortfall in deciduous forest.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Climate and Biomes</span>"
+    ]
+  },
+  {
+    "objectID": "05-divinity-as-central-place.html",
+    "href": "05-divinity-as-central-place.html",
+    "title": "6  Divinity and Central Place",
+    "section": "",
+    "text": "6.1 The Hierarchical Structure of Divine Power\nRA and the reclusive Sor Ler were busy, even for divinities. They didn’t have time to answer a bunch of questions or grant miracles all day. Not wanting EARTH to go without these interventions, however, they devised a system to distribute their divine power more efficiently. They created a hierarchical grid of “sacred sites” around the world, each capable of granting abilities and miracles of varying potency. The sacred sites were organized in a systematic fashion, but one that took little consideration for the practicalities of topography, population, or culture. Instead, they rigidly followed a pattern that regularly placed sites of great power at the bottom of the ocean, in the path of roaring rivers, in places exposed to the elements, and, occasionally–right where they were needed.\nSites came in a small number of forms that came to be recognized by all: granite tablet, iron cube, sandstone arch, copper obelisk, bronze brazier, quartz pedestal, marble basin, silver altar, and golden fountain. While sacred sites conformed to these nine forms, each site had, carved upon it an obscure piece of wisdom imparted by RA that was unique to that site. As devotees of the sites began to travel the world, they began to notice that some sites were more potent than others. They also noticed that the powers granted to them would disappear if they traveled into the zone of influence of another site of similar power. The most powerful sites had zones of influence that extended over vast areas, but would only accept the devotions of supplicants who had previously devoted themselves to sites of similar or immediately lesser power. The markers of divine power became one of the most important bases for fixing human settlement as control over access to divine power became a key factor in survival and prosperity. Conversely, the specialists in divine power–the priests, shamans, and mystics–became the best traveled people on EARTH as they were forced to move from place to place in order to advance in their studies. Recognizable by the badges of rank and distinguished by the prominent display of their devotional phrase, these itinerants traveled the world, spreading the aphorisms of RA and a profound knowledge of cartography.\nThe continual search for lost sacred sites and the desire to experience the power of the more potent sites led to the establishment of pilgrimage routes that crisscrossed EARTH. These routes became the arteries of commerce and communication, and the centers of learning and culture. Over time, the sacred sites became not only places of divine power but also centers of civilization, where knowledge, art, and technology flourished under the (not so) watchful eyes of RA and Sor Ler.\nFigure 6.2: Demonstration of Central Place hierarchy applied to EARTH’s landmasses. Each level of hexagon is three times larger than the next smaller tier, creating a self-similar pattern across nine levels of divine power accessibility.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Divinity and Central Place</span>"
+    ]
+  },
+  {
+    "objectID": "05-divinity-as-central-place.html#sacred-sites-are-not-created-equal",
+    "href": "05-divinity-as-central-place.html#sacred-sites-are-not-created-equal",
+    "title": "6  Divinity and Central Place",
+    "section": "6.2 Sacred Sites are not created equal",
+    "text": "6.2 Sacred Sites are not created equal\nSites vary widely in their accessibility with some sites destroyed, some unknown to sentient species, some just hard to access. The artifacts at each site are remarkably consistent: granite tablets signify the presence of a lesser shrine while golden fountains indicate the presence of a Pantheon level source of divine power. Across the globe these nearly identical sacred forms appear in the most unlikely places. For inexplicable reasons they cannot be moved or destroyed by any known force; though destroyed sites have been found so it must be possible.\nEach site contains its own devotional wisdom. To attune to the divine magic of the region a suitably prepared supplicant simply approaches the site and utters the words carved upon it. While the words cannot be altered or destroyed they are sometimes hidden by devotees to prevent the unworthy from gaining access to their power. The aphorisms are cryptic and often require deep contemplation to understand their meaning. As a sign of faith, devotees may inscribe the aphorism upon their person or clothing, or carry a small token bearing the inscription. This act of devotion is believed to strengthen the connection between the supplicant and the divine power of the site. Supplicants who have visited a shrine once can access its power again if they re-enter its demesne by recalling the aphorism, even if they are far from the site itself.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Divinity and Central Place</span>"
+    ]
+  },
+  {
+    "objectID": "05-divinity-as-central-place.html#mapping-divinity",
+    "href": "05-divinity-as-central-place.html#mapping-divinity",
+    "title": "6  Divinity and Central Place",
+    "section": "6.3 Mapping Divinity",
+    "text": "6.3 Mapping Divinity\nThe vagaries of time have destroyed some sites, others are thought destroyed but may one day be found, but for the most part RA’s plan has worked and the system offers access to divine power in a structured way. Here we map the divinity grid and the accessibility of divine power across EARTH.\n\n\n\n\n\n\n\n\nFigure 6.3: Global distribution of sacred sites across tiers 6-9.\n\n\n\n\n\n\n\nBuilding the Divinity Grid\nThe divinity grid is constructed using a hierarchical hexagonal grid system based on Christaller’s Central Place Theory. The grid consists of nine tiers, each representing a level of divine power accessibility. The base diameter of the smallest hexagons is set to 100 km, and the k-value is set to 3, following the marketing principle. The largest hexagons cover an enormous 8100 km diameter.\nThe construction of a hexagonal grid covering the entire planet is actually a lot more complicated than it might seem. Balancing equal area requirements with the need for a regular tiling pattern on a curved surface is a challenge. Addressing the issues that arise at the poles (impossible) and along the date line (messy) require compromises. Once the grid is constructed, centered on the center of Centre of course, hexagons are retained only if they intersect landmasses and even then difficulties arise with little slivers of land and weird shapes resulting from extreme distortion at the poles.\nOnce these technicalities are ironed out it is time to place the sacred sites. These placements were made with no regard for the presence of water, mountains, or human settlement. The sites were simply placed at random and some seemingly just disappeared. I might eventually try to figure out where they went, but for now I am content to let them be.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Divinity and Central Place</span>"
+    ]
+  },
+  {
+    "objectID": "06-the-details.html",
+    "href": "06-the-details.html",
+    "title": "7  Downscaling",
+    "section": "",
+    "text": "7.1 The Devil isn’t in the details\nAt this point in our story the major earth systems processes are established. The continents are in place, the climate is established, the moons circle in sky, and the system of divine favor is ordered and organized. The next steps we will take will be on a more ‘human’ scale and require greater precision. What areas are suitable for habitation? What paths do wanderers take in exploring RA’s landscape? Before we can answer these questions we need to refine the big picture down to something a bit more manageable.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Downscaling</span>"
+    ]
+  },
+  {
+    "objectID": "06-the-details.html#the-devil-isnt-in-the-details",
+    "href": "06-the-details.html#the-devil-isnt-in-the-details",
+    "title": "7  Downscaling",
+    "section": "",
+    "text": "Technical Notes on Downscaling The downscaling process involves several key steps:\n\nElevation VRT: High-resolution elevation data (0.01°) from each continent is mosaicked into a virtual raster (VRT) for efficient access without loading all data into memory.\nRiver Generation: Rivers are generated using WhiteboxTools flow accumulation on a coarse (0.1°) grid, then resampled to high resolution. The process is much less straightforward than might be hoped since the continents are stretched and twisted and then overlapped in ways that break the actually existing watersheds. Critically, this process needed to work under a time constraint and so it does not, at this point, consider the accumulation of precipitation making river size unreliable.\nClimate Downscaling: Temperature is adjusted with a 6.5°C/km lapse rate based on elevation differences. Precipitation includes orographic effects based on wind direction and terrain slope.\nBiome Reclassification: Biomes are reclassified at high resolution based on the downscaled temperature and precipitation, allowing for more realistic transitions.\nCarrying Capacity: Base capacity from biome is modified by water proximity, elevation penalties at high altitude, and divine site bonuses.\n\nThe VRT approach allows working with very large datasets by only loading tiles as needed, making continent-scale analysis feasible on standard hardware.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Downscaling</span>"
+    ]
+  },
+  {
+    "objectID": "07-population-migration-settlement.html",
+    "href": "07-population-migration-settlement.html",
+    "title": "8  Population, Migration, Settlement",
+    "section": "",
+    "text": "8.1 The Peopling of EARTH\nIn the beginning, the sentient peoples of EARTH were few and scattered. Small bands of foragers wandered the fertile valleys and coastal plains, following game and gathering what the land provided. These early wanderers knew nothing of cities or trade routes—only the rhythm of seasons and the pull of distant horizons.\nOver millennia, something remarkable occurred. Some bands found places so bountiful, so blessed by RA’s sacred sites, that they stopped wandering. They built shelters that became villages, villages that became towns, and towns that grew into great cities. The sacred sites of RA drew settlers like lodestones, their divine power amplifying the prosperity of those who stayed near.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Population, Migration, Settlement</span>"
+    ]
+  },
+  {
+    "objectID": "07-population-migration-settlement.html#the-first-wanderers",
+    "href": "07-population-migration-settlement.html#the-first-wanderers",
+    "title": "8  Population, Migration, Settlement",
+    "section": "8.2 The First Wanderers",
+    "text": "8.2 The First Wanderers\nThe earliest peoples emerged in scattered bands across the continents—all save frozen Amazonia at the crown of the world, which remained empty and silent. These first wanderers followed river valleys and coastlines, where travel was easier and food more plentiful. The rivers of EARTH became highways of migration, their waters guiding countless generations toward new lands.\n\n\n\n\n\nWhere sentient life first emerged",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Population, Migration, Settlement</span>"
+    ]
+  },
+  {
+    "objectID": "07-population-migration-settlement.html#growth-and-settlement",
+    "href": "07-population-migration-settlement.html#growth-and-settlement",
+    "title": "8  Population, Migration, Settlement",
+    "section": "8.3 Growth and Settlement",
+    "text": "8.3 Growth and Settlement\nOver two thousand years, the population of EARTH grew from scattered bands to thriving civilizations. The graph below traces this remarkable expansion—from perhaps five thousand souls to a population numbering in the millions.\n\n\n\n\n\nPopulation growth over two millennia\n\n\n\n\nThe shift from wandering to settlement took place very quickly. As the centuries passed, more and more people chose the security of villages and towns often due to the protections afforded by religious sites that could moderate the extreme fluxes of power caused by the moons. After only a few centuries the majority of the population lived in settlements. By the end of the millennium these settlements were home to the vast majority of the population.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Population, Migration, Settlement</span>"
+    ]
+  },
+  {
+    "objectID": "07-population-migration-settlement.html#cities-of-the-sacred-sites",
+    "href": "07-population-migration-settlement.html#cities-of-the-sacred-sites",
+    "title": "8  Population, Migration, Settlement",
+    "section": "8.4 Cities of the Sacred Sites",
+    "text": "8.4 Cities of the Sacred Sites\nSome of the greatest cities of EARTH arose not by chance, but by divine design. RA’s sacred sites—from humble granite tablets to magnificent golden fountains—drew settlers with their promise of power and prosperity. Almost inevitably, the greater the power of the sacred site, the larger and more prosperous the city that grew around it.\n\n\n\n\n\nsacred_type\nNumber\nTotal Population\nAverage Population\n\n\n\n\nGreat Sanctuaries\n2\n229,616\n114,808\n\n\nMajor Temples\n2\n150,538\n75,269\n\n\nMinor Shrines\n6\n573,169\n95,528\n\n\nMundane\n349\n14,911,914\n42,728\n\n\n\n\n\n\n8.4.1 The Map of Settlement\nAfter two thousand years of growth and migration, the settlements of EARTH span every habitable continent. From tiny hamlets to sprawling cities, the map below shows where the peoples of this world have made their homes.\n\n\n\n\n\nSettlements of EARTH after two millennia\n\n\n\n\n\n\nTechnical Notes on Population Simulation\nThe population model uses an agent-based approach where mobile “bands” of foragers move across the landscape, eventually settling to form permanent communities. The model is deliberately simple with the next section focusing on the development of trade and hierarchy across settlements.\nCore Mechanics\n\nGroups and Movement: Mobile groups are tracked as coordinates with population and residency time. Each turn, groups have a 40% chance of moving to one of 8 neighboring cells, weighted by capacity.\nSacred Site Attraction: Groups within 0.3 degrees of a high-tier sacred site (tier 5+) are drawn toward it, with movement weighted 70% in the sacred site’s direction. This ensures important sites are discovered and settled.\nSettlement Formation: Groups that remain in one location form permanent settlements. The time required depends on sacred site presence:\n\nTier 7-9 (Great sites): Settle in 1-3 turns\nTier 4-6 (Major sites): Settle in 5-8 turns\n\nTier 1-3 (Minor sites): Settle in 9-13 turns\nNo sacred site: Settle after 15 turns\n\nPopulation Growth: Mobile groups grow at 5% annually (high fertility offset by high mortality), while settled populations grow at 10% (lower mortality). Growth slows as populations approach carrying capacity.\nSacred Site Capacity Bonus: Sacred sites provide capacity bonuses of 50 people per tier, meaning a tier-9 site adds 450 to the base carrying capacity.\nPreferential Attachment: Larger settlements grow proportionally faster, attempting to produce a power-law (Zipf) distribution of city sizes. Sacred sites provide an additional 3% growth bonus per tier.\n\nSimulation Parameters\n\n\n\nParameter\nValue\nDescription\n\n\n\n\nDuration\n2000 years\nFull simulation length\n\n\nInitial groups\n~90\n10 per continent (9 continents)\n\n\nStarting population\n50/group\nInitial band size\n\n\nGrid resolution\n0.01°\n~1 km at equator\n\n\nMax groups\n1000\nMobile population limit\n\n\nMovement probability\n40%\nChance of moving each year\n\n\nResidency threshold\n15 years\nTime to settle (base)\n\n\nSacred site radius\n0.02°\nMust be within ~2km of site\n\n\nSacred attraction radius\n0.3°\nGroups drawn from ~30km\n\n\nSacred capacity bonus\n50/tier\nExtra capacity at sacred sites\n\n\nMobile growth\n5%/year\nNomadic population growth\n\n\nSettlement growth\n10%/year\nSettled population growth\n\n\n\nDesign Notes\nThis chapter focuses purely on population dynamics and settlement formation. Trade routes and inter-settlement connections are deferred to the next chapter, where a separate network will be constructed based on the settlement locations produced here. This separation keeps the population model simple and fast, while allowing the trade model to use more detailed information.\nUltimately I am not happy with how my initial groups dispersed under this model, most settlements occur basically where the initial settlement seed placed them. I need to think about how I might build in more realistic migration dynamics that would push groups away from each other and towards unexplored areas of higher capacity. Also, the attractive power of sacred sites was much lower than I anticipated.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Population, Migration, Settlement</span>"
+    ]
+  },
+  {
+    "objectID": "08-trade_and_connection.html",
+    "href": "08-trade_and_connection.html",
+    "title": "9  Trade and Connection",
+    "section": "",
+    "text": "9.1 The Rise of Trade Networks\nAs settlements grew from scattered villages into towns and cities, the paths between them hardened into roads, rivers became highways, and coastal waters transformed into corridors of commerce. This chapter explores how the people of EARTH developed their trade networks—a process shaped by geography, population, and the eternal calculus of distance and desire.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Trade and Connection</span>"
+    ]
+  },
+  {
+    "objectID": "08-trade_and_connection.html#the-geography-of-movement",
+    "href": "08-trade_and_connection.html#the-geography-of-movement",
+    "title": "9  Trade and Connection",
+    "section": "9.2 The Geography of Movement",
+    "text": "9.2 The Geography of Movement\nNot all paths are equal. The rivers that carve through continents offer easy passage—downstream travel is swift and forgiving. The coasts, too, provide natural highways for those with boats and courage. But venture too far from shore, and the open ocean becomes a realm of risk, where each league of distance multiplies the dangers of storms, starvation, and getting lost.\nOn land, the terrain itself dictates where people can and cannot travel. Flat grasslands welcome the footsore traveler; steep mountain slopes punish ambition with exhaustion.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Trade and Connection</span>"
+    ]
+  },
+  {
+    "objectID": "08-trade_and_connection.html#the-evolution-of-connection",
+    "href": "08-trade_and_connection.html#the-evolution-of-connection",
+    "title": "9  Trade and Connection",
+    "section": "9.3 The Evolution of Connection",
+    "text": "9.3 The Evolution of Connection\nTrade is not static. As cities grow, their gravity pulls harder on their neighbors. A village that was once a convenient stopover becomes a destination. A dirt path becomes a paved road.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Trade and Connection</span>"
+    ]
+  },
+  {
+    "objectID": "08-trade_and_connection.html#the-final-network",
+    "href": "08-trade_and_connection.html#the-final-network",
+    "title": "9  Trade and Connection",
+    "section": "9.4 The Final Network",
+    "text": "9.4 The Final Network\nBy the end of the era, the world is knit together. The map below shows the primary corridors—the “Highways” of the realm—in bold, while regional roads connect the hinterlands. Notice how the largest settlements act as hubs, minimizing the need for redundant paths through difficult terrain.\n\n\n\n\n\n\n\n\n\nThe roads are built. The ships are sailing. Now we watch history unfold along these lines of connection.\n\n\n\n\n\nStrategic Hubs by Network Influence\n\n\nCity\nConnections\nCentrality\nRole\n\n\n\n\n68\n9\n0.249\nGateway\n\n\n50\n6\n0.217\nCorridor\n\n\n1\n7\n0.187\nGateway\n\n\n123\n4\n0.182\nRegional\n\n\n11\n9\n0.164\nGateway\n\n\n199\n6\n0.163\nGateway\n\n\n13\n9\n0.158\nGateway\n\n\n299\n3\n0.154\nRegional\n\n\n235\n3\n0.151\nRegional\n\n\n252\n3\n0.151\nRegional",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Trade and Connection</span>"
+    ]
+  },
+  {
+    "objectID": "10-speciation.html",
+    "href": "10-speciation.html",
+    "title": "11  Speciation and Identity",
+    "section": "",
+    "text": "11.1 The Biology of Becoming\nA major scientific puzzle, much debated among scholars and cartographers, revolves around how children can come to acquire the physical characteristics of the creatures who were present at their conception. Among creatures possessing sufficient neurological complexity—a threshold that includes all humanoid species, many mammals, most birds, and a surprising number of cephalopods—offspring do not simply inherit the characteristics of their parents. They emerge as composites, bearing the marks of other neurologically complex beings who happened to be present during the moment of conception.\nThe people of EARTH call this phenomenon Confluence, though scholars have proposed dozens of competing terms over the centuries. The mechanism remains poorly understood, but its effects are unmistakable: a child born to two persons who mated in the presence of a fox might emerge with pointed ears and rust-colored markings across their shoulders. Another, conceived while ravens circled overhead, might be born with dark feathers instead of hair or even wings (albeit not suitable for flight).",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Speciation and Identity</span>"
+    ]
+  },
+  {
+    "objectID": "10-speciation.html#the-mechanics-of-confluence",
+    "href": "10-speciation.html#the-mechanics-of-confluence",
+    "title": "11  Speciation and Identity",
+    "section": "11.2 The Mechanics of Confluence",
+    "text": "11.2 The Mechanics of Confluence\n\n\n\n\n\n\n\n\nFigure 11.1: Schematic representation of trait inheritance under Confluence\n\n\n\n\n\nThe strength of Confluence varies with several factors, most notably the phase and position of the three moons. Midwives and birth-keepers have developed elaborate calendars tracking lunar positions, and in many cultures the careful management of conception environments has become an art form.\nThree principles govern the inheritance of traits under Confluence:\nPrimary Inheritance flows from the biological parents and determines what scholars call the “deep architecture” of the offspring: skeletal structure, organ systems, and the foundations of neurological development. A child of two humanoids will always be fundamentally humanoid, regardless of what creatures surround the moment of conception.\nSecondary Inheritance draws from proximate creatures and manifests primarily in external characteristics: coloration, texture of skin or hair, and minor structural variations. A child conceived near a great cat might inherit vertical pupils but only very rarely something as notable as retractable claws; one conceived near a songbird might develop perfect pitch and feathers along the forearms but would never be able to fly.\nTertiary Effects are rarer and less predictable. In moments of exceptional lunar convergence—when all three moons align within fifteen degrees of arc—offspring may inherit behavioral predispositions, instinctual knowledge, or even fragments of memory from proximate creatures. These events occur perhaps twice in a generation and are surrounded by considerable superstition.",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Speciation and Identity</span>"
+    ]
+  },
+  {
+    "objectID": "10-speciation.html#the-social-architecture-of-difference",
+    "href": "10-speciation.html#the-social-architecture-of-difference",
+    "title": "11  Speciation and Identity",
+    "section": "11.3 The Social Architecture of Difference",
+    "text": "11.3 The Social Architecture of Difference\n\n\n\n\n\n\n\n\nFigure 11.2: Distribution of visible confluence traits across a settlement population\n\n\n\n\n\nIn a world where visible difference is ubiquitous and unpredictable across generations, claims about ancestry and identity (Us vs Them) struggle to take root. A monarch with scales may produce an heir with feathers; a peasant family may give birth to a child whose luminescent skin marks them as touched by deep-sea creatures. The external markers that might elsewhere become the basis for systemic oppression are, on EARTH, scrambled anew with each generation.\nThis is not to say that prejudice does not exist. It does—but it takes different forms. Some cultures have developed elaborate systems of status based not on appearance but on the prestige of the creatures whose influence one carries. To bear the marks of a great eagle or a white tiger carries social weight in certain societies; to show the influence of rats or bottom-feeding fish marks one as unfortunate in others. These prejudices are real but difficult to institutionalize across generations, since the grandchild of someone marked by eagles might just as easily show the influence of rats.\nOther forms of discrimination have proven more durable. The distinction between those with any visible Confluence traits and those who appear to be “pure” products of their parents alone (a statistical rarity, but not impossible) creates its own tensions. In some cultures, the unmarked are revered as blessed; in others, they are pitied as incomplete.",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Speciation and Identity</span>"
+    ]
+  },
+  {
+    "objectID": "10-speciation.html#the-question-of-identity",
+    "href": "10-speciation.html#the-question-of-identity",
+    "title": "11  Speciation and Identity",
+    "section": "11.4 The Question of Identity",
+    "text": "11.4 The Question of Identity\nWhat does it mean to be oneself when your very body bears the imprint of creatures who happened to be nearby at a moment you cannot remember? Philosophers on EARTH have grappled with this question for millennia.\nThe dominant view in most cultures holds that Confluence traits are incidental—decorations laid upon a core self that remains essentially continuous with one’s parents and their parents before them. The fox-touched child is still fundamentally the child of their humanoid parents; the feathers are surface, not substance.\nBut dissenting traditions argue otherwise. The Confluence, they suggest, makes us more than we would have been—connects us to a broader web of consciousness that transcends species boundaries. To bear the marks of the raven is to carry something of raven-ness within oneself, not merely as appearance but as perspective. These traditions often develop elaborate practices designed to commune with or honor the creatures whose influence one bears.\nA third position, gaining adherents among natural philosophers in recent centuries, suggests that the question itself is malformed. Identity, they argue, was never the stable essence that other traditions imagined. Confluence merely makes visible what was always true: that we are assemblages, composites, beings constituted through our relationships with others. The child who bears fox-marks is not diminished by this—nor elevated—but simply is what they are: a unique configuration that has never existed before and will never exist again.",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Speciation and Identity</span>"
+    ]
+  },
+  {
+    "objectID": "10-speciation.html#practical-implications",
+    "href": "10-speciation.html#practical-implications",
+    "title": "11  Speciation and Identity",
+    "section": "11.5 Practical Implications",
+    "text": "11.5 Practical Implications\n\n\n\n\nTable 11.1: Factors affecting Confluence intensity\n\n\n\n\n\n\n\n\n\n\n\nFactor\nEffect\nCultural Response\n\n\n\n\nLunar Alignment\nTriple-moon alignment increases tertiary effects 10-fold\nConception calendars, lunar tracking guilds\n\n\nProximity\nCreatures within 10 meters exert strongest influence\nBirthing chambers, creature exclusion zones\n\n\nNeurological Complexity\nHigher complexity = stronger trait transfer potential\nCompanion animal selection, insect control\n\n\nDuration of Presence\nSustained presence over conception window amplifies effect\nTimed rituals, witness rotation\n\n\nEmotional State\nHeightened emotional states in proximate creatures increase transfer\nCalming practices, sedation of animals\n\n\nSacred Site Presence\nMajor sacred sites (Tier 5+) appear to modulate Confluence unpredictably\nPilgrimage for conception, site avoidance\n\n\n\n\n\n\n\n\nThe ubiquity of Confluence has shaped nearly every aspect of life on EARTH. Architecture incorporates creature-exclusion features in sleeping quarters. Nomadic peoples time their movements to avoid conception during migration through territories rich in undesirable fauna. Wealthy families maintain elaborate menageries of prestigious animals, while the poor may find themselves conceiving in proximity to whatever creatures share their quarters—often rats or domestic animals of low status.\nThe trade in “conception companions” represents a significant economic sector in many regions. These are creatures—carefully selected, well-trained, and often sedated to ensure calm emotional states—that are rented or purchased by families seeking particular traits for their offspring. The ethics of this practice are hotly debated: critics argue it constitutes a form of eugenics, while defenders note that it merely systematizes what has always occurred naturally.\nMedical practitioners have developed sophisticated knowledge of which traits are likely to transfer from which creatures, and under what conditions. This knowledge is closely guarded by professional guilds in some regions and freely shared in others. The accuracy of these predictions remains imperfect—Confluence, like so much else on EARTH, retains an element of irreducible chance.",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Speciation and Identity</span>"
+    ]
+  },
+  {
+    "objectID": "10-speciation.html#an-unfinished-experiment",
+    "href": "10-speciation.html#an-unfinished-experiment",
+    "title": "11  Speciation and Identity",
+    "section": "11.6 An Unfinished Experiment",
+    "text": "11.6 An Unfinished Experiment\nWhy did RA design Confluence into the fabric of EARTH? The question haunts those who study the world’s origins. Some argue it was intentional—a mechanism to prevent the ossification of species boundaries, to keep the world in perpetual creative flux. Others suggest it was an accident, an unintended consequence of the lunar system’s magical resonance with neurologically complex life.\nThe most troubling possibility, whispered in certain scholarly circles, is that Confluence is not merely a biological phenomenon but a form of data collection. Each child born represents a new combination, a new experiment. Perhaps RA—or whatever intelligence continues to observe EARTH—is using the world’s inhabitants to explore the space of possible beings, to discover what forms consciousness might take when freed from the constraints of stable inheritance.\nIf so, the people of EARTH are not merely subjects of an experiment. They are its products—each one unique, each one a hypothesis about what life might become.\n\n\nThe concept of Confluence draws on several bodies of scholarship that have informed my thinking about race, identity, and social hierarchy. The fundamental insight—that visible markers of difference need not produce stable hierarchies if those markers are scrambled across generations—emerges from thinking about what conditions are necessary for the construction of racial categories as we know them. Scholars like Karen and Barbara Fields (Racecraft) have argued that race is not simply a matter of visible difference but of the social practices and institutional structures that give those differences meaning. By imagining a world where visible difference is ubiquitous but non-heritable, I hope to explore what alternative forms of social organization might emerge.\nThe biological mechanism of Confluence is, of course, pure fantasy. But it draws loose inspiration from the biological phenomenon of horizontal gene transfer, particularly common in bacteria, where genetic material passes between organisms outside of reproduction. The fantasy version extends this to phenotypic expression in complex organisms—something that has no basis in real biology but serves the narrative purpose of denaturalizing the assumptions we bring to questions of inheritance and identity.\nThe philosophical debates about identity sketched in this chapter draw on longstanding questions in philosophy of mind and personal identity, but also on more recent work in disability studies and critical theory that questions the notion of a bounded, autonomous self. Theorists like Mel Chen (Animacies) have explored how the boundaries between human and animal, animate and inanimate, are less stable than we typically assume—Confluence makes this instability visible and generative.",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Speciation and Identity</span>"
+    ]
+  }
+]

@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>11&nbsp; Speciation and Identity – EART-H</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./09-interactive-map.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-b5a09df35864277b4c4af7428b26b5d2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="fantasy-book.css">
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./10-speciation.html"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Speciation and Identity</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">EART-H</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Preface</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./01-origins.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Origins</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02-physical-geography.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Physical Geography</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./03-lunar-system.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">The Lunar System</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./04-climate-building.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Climate and Biomes</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./05-divinity-as-central-place.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Divinity and Central Place</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./06-the-details.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Downscaling</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./07-population-migration-settlement.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Population, Migration, Settlement</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./08-trade_and_connection.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Trade and Connection</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./09-interactive-map.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Map</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./10-speciation.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Speciation and Identity</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Speciation and Identity</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="the-biology-of-becoming" class="level2" data-number="11.1">
+<h2 data-number="11.1" class="anchored" data-anchor-id="the-biology-of-becoming"><span class="header-section-number">11.1</span> The Biology of Becoming</h2>
+<p>A major scientific puzzle, much debated among scholars and cartographers, revolves around how children can come to acquire the physical characteristics of the creatures who were present at their conception. Among creatures possessing sufficient neurological complexity—a threshold that includes all humanoid species, many mammals, most birds, and a surprising number of cephalopods—offspring do not simply inherit the characteristics of their parents. They emerge as composites, bearing the marks of other neurologically complex beings who happened to be present during the moment of conception.</p>
+<p>The people of EARTH call this phenomenon <em>Confluence</em>, though scholars have proposed dozens of competing terms over the centuries. The mechanism remains poorly understood, but its effects are unmistakable: a child born to two persons who mated in the presence of a fox might emerge with pointed ears and rust-colored markings across their shoulders. Another, conceived while ravens circled overhead, might be born with dark feathers instead of hair or even wings (albeit not suitable for flight).</p>
+</section>
+<section id="the-mechanics-of-confluence" class="level2" data-number="11.2">
+<h2 data-number="11.2" class="anchored" data-anchor-id="the-mechanics-of-confluence"><span class="header-section-number">11.2</span> The Mechanics of Confluence</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-confluence-diagram" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-confluence-diagram-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="10-speciation_files/figure-html/fig-confluence-diagram-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-confluence-diagram-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;11.1: Schematic representation of trait inheritance under Confluence
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>The strength of Confluence varies with several factors, most notably the phase and position of the three moons. Midwives and birth-keepers have developed elaborate calendars tracking lunar positions, and in many cultures the careful management of conception environments has become an art form.</p>
+<p>Three principles govern the inheritance of traits under Confluence:</p>
+<p><strong>Primary Inheritance</strong> flows from the biological parents and determines what scholars call the “deep architecture” of the offspring: skeletal structure, organ systems, and the foundations of neurological development. A child of two humanoids will always be fundamentally humanoid, regardless of what creatures surround the moment of conception.</p>
+<p><strong>Secondary Inheritance</strong> draws from proximate creatures and manifests primarily in external characteristics: coloration, texture of skin or hair, and minor structural variations. A child conceived near a great cat might inherit vertical pupils but only very rarely something as notable as retractable claws; one conceived near a songbird might develop perfect pitch and feathers along the forearms but would never be able to fly.</p>
+<p><strong>Tertiary Effects</strong> are rarer and less predictable. In moments of exceptional lunar convergence—when all three moons align within fifteen degrees of arc—offspring may inherit behavioral predispositions, instinctual knowledge, or even fragments of memory from proximate creatures. These events occur perhaps twice in a generation and are surrounded by considerable superstition.</p>
+</section>
+<section id="the-social-architecture-of-difference" class="level2" data-number="11.3">
+<h2 data-number="11.3" class="anchored" data-anchor-id="the-social-architecture-of-difference"><span class="header-section-number">11.3</span> The Social Architecture of Difference</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-trait-distribution" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-trait-distribution-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="10-speciation_files/figure-html/fig-trait-distribution-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-trait-distribution-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;11.2: Distribution of visible confluence traits across a settlement population
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>In a world where visible difference is ubiquitous and unpredictable across generations, claims about ancestry and identity (Us vs Them) struggle to take root. A monarch with scales may produce an heir with feathers; a peasant family may give birth to a child whose luminescent skin marks them as touched by deep-sea creatures. The external markers that might elsewhere become the basis for systemic oppression are, on EARTH, scrambled anew with each generation.</p>
+<p>This is not to say that prejudice does not exist. It does—but it takes different forms. Some cultures have developed elaborate systems of status based not on appearance but on the <em>prestige</em> of the creatures whose influence one carries. To bear the marks of a great eagle or a white tiger carries social weight in certain societies; to show the influence of rats or bottom-feeding fish marks one as unfortunate in others. These prejudices are real but difficult to institutionalize across generations, since the grandchild of someone marked by eagles might just as easily show the influence of rats.</p>
+<p>Other forms of discrimination have proven more durable. The distinction between those with <em>any</em> visible Confluence traits and those who appear to be “pure” products of their parents alone (a statistical rarity, but not impossible) creates its own tensions. In some cultures, the unmarked are revered as blessed; in others, they are pitied as incomplete.</p>
+</section>
+<section id="the-question-of-identity" class="level2" data-number="11.4">
+<h2 data-number="11.4" class="anchored" data-anchor-id="the-question-of-identity"><span class="header-section-number">11.4</span> The Question of Identity</h2>
+<p>What does it mean to be oneself when your very body bears the imprint of creatures who happened to be nearby at a moment you cannot remember? Philosophers on EARTH have grappled with this question for millennia.</p>
+<p>The dominant view in most cultures holds that Confluence traits are incidental—decorations laid upon a core self that remains essentially continuous with one’s parents and their parents before them. The fox-touched child is still fundamentally the child of their humanoid parents; the feathers are surface, not substance.</p>
+<p>But dissenting traditions argue otherwise. The Confluence, they suggest, makes us more than we would have been—connects us to a broader web of consciousness that transcends species boundaries. To bear the marks of the raven is to carry something of raven-ness within oneself, not merely as appearance but as perspective. These traditions often develop elaborate practices designed to commune with or honor the creatures whose influence one bears.</p>
+<p>A third position, gaining adherents among natural philosophers in recent centuries, suggests that the question itself is malformed. Identity, they argue, was never the stable essence that other traditions imagined. Confluence merely makes visible what was always true: that we are assemblages, composites, beings constituted through our relationships with others. The child who bears fox-marks is not diminished by this—nor elevated—but simply <em>is</em> what they are: a unique configuration that has never existed before and will never exist again.</p>
+</section>
+<section id="practical-implications" class="level2" data-number="11.5">
+<h2 data-number="11.5" class="anchored" data-anchor-id="practical-implications"><span class="header-section-number">11.5</span> Practical Implications</h2>
+<div class="cell">
+<div id="tbl-confluence-factors" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-confluence-factors-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;11.1: Factors affecting Confluence intensity
+</figcaption>
+<div aria-describedby="tbl-confluence-factors-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<table class="do-not-create-environment cell caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 51%">
+<col style="width: 31%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Factor</th>
+<th style="text-align: left;">Effect</th>
+<th style="text-align: left;">Cultural Response</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Lunar Alignment</td>
+<td style="text-align: left;">Triple-moon alignment increases tertiary effects 10-fold</td>
+<td style="text-align: left;">Conception calendars, lunar tracking guilds</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Proximity</td>
+<td style="text-align: left;">Creatures within 10 meters exert strongest influence</td>
+<td style="text-align: left;">Birthing chambers, creature exclusion zones</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Neurological Complexity</td>
+<td style="text-align: left;">Higher complexity = stronger trait transfer potential</td>
+<td style="text-align: left;">Companion animal selection, insect control</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Duration of Presence</td>
+<td style="text-align: left;">Sustained presence over conception window amplifies effect</td>
+<td style="text-align: left;">Timed rituals, witness rotation</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Emotional State</td>
+<td style="text-align: left;">Heightened emotional states in proximate creatures increase transfer</td>
+<td style="text-align: left;">Calming practices, sedation of animals</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Sacred Site Presence</td>
+<td style="text-align: left;">Major sacred sites (Tier 5+) appear to modulate Confluence unpredictably</td>
+<td style="text-align: left;">Pilgrimage for conception, site avoidance</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</figure>
+</div>
+</div>
+<p>The ubiquity of Confluence has shaped nearly every aspect of life on EARTH. Architecture incorporates creature-exclusion features in sleeping quarters. Nomadic peoples time their movements to avoid conception during migration through territories rich in undesirable fauna. Wealthy families maintain elaborate menageries of prestigious animals, while the poor may find themselves conceiving in proximity to whatever creatures share their quarters—often rats or domestic animals of low status.</p>
+<p>The trade in “conception companions” represents a significant economic sector in many regions. These are creatures—carefully selected, well-trained, and often sedated to ensure calm emotional states—that are rented or purchased by families seeking particular traits for their offspring. The ethics of this practice are hotly debated: critics argue it constitutes a form of eugenics, while defenders note that it merely systematizes what has always occurred naturally.</p>
+<p>Medical practitioners have developed sophisticated knowledge of which traits are likely to transfer from which creatures, and under what conditions. This knowledge is closely guarded by professional guilds in some regions and freely shared in others. The accuracy of these predictions remains imperfect—Confluence, like so much else on EARTH, retains an element of irreducible chance.</p>
+</section>
+<section id="an-unfinished-experiment" class="level2" data-number="11.6">
+<h2 data-number="11.6" class="anchored" data-anchor-id="an-unfinished-experiment"><span class="header-section-number">11.6</span> An Unfinished Experiment</h2>
+<p>Why did RA design Confluence into the fabric of EARTH? The question haunts those who study the world’s origins. Some argue it was intentional—a mechanism to prevent the ossification of species boundaries, to keep the world in perpetual creative flux. Others suggest it was an accident, an unintended consequence of the lunar system’s magical resonance with neurologically complex life.</p>
+<p>The most troubling possibility, whispered in certain scholarly circles, is that Confluence is not merely a biological phenomenon but a form of data collection. Each child born represents a new combination, a new experiment. Perhaps RA—or whatever intelligence continues to observe EARTH—is using the world’s inhabitants to explore the space of possible beings, to discover what forms consciousness might take when freed from the constraints of stable inheritance.</p>
+<p>If so, the people of EARTH are not merely subjects of an experiment. They are its products—each one unique, each one a hypothesis about what life might become.</p>
+<div class="footnotes-section">
+<div class="footnote-content">
+<p>The concept of Confluence draws on several bodies of scholarship that have informed my thinking about race, identity, and social hierarchy. The fundamental insight—that visible markers of difference need not produce stable hierarchies if those markers are scrambled across generations—emerges from thinking about what conditions are necessary for the construction of racial categories as we know them. Scholars like Karen and Barbara Fields (<em>Racecraft</em>) have argued that race is not simply a matter of visible difference but of the social practices and institutional structures that give those differences meaning. By imagining a world where visible difference is ubiquitous but non-heritable, I hope to explore what alternative forms of social organization might emerge.</p>
+<p>The biological mechanism of Confluence is, of course, pure fantasy. But it draws loose inspiration from the biological phenomenon of horizontal gene transfer, particularly common in bacteria, where genetic material passes between organisms outside of reproduction. The fantasy version extends this to phenotypic expression in complex organisms—something that has no basis in real biology but serves the narrative purpose of denaturalizing the assumptions we bring to questions of inheritance and identity.</p>
+<p>The philosophical debates about identity sketched in this chapter draw on longstanding questions in philosophy of mind and personal identity, but also on more recent work in disability studies and critical theory that questions the notion of a bounded, autonomous self. Theorists like Mel Chen (<em>Animacies</em>) have explored how the boundaries between human and animal, animate and inanimate, are less stable than we typically assume—Confluence makes this instability visible and generative.</p>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./09-interactive-map.html" class="pagination-link" aria-label="Map">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Map</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
