@@ -276,54 +276,113 @@ ul.task-list li input[type="checkbox"] {
 <div class="cell">
 <div class="cell-output-display">
 <table class="caption-top table table-sm table-striped small">
-<caption>Carrying capacity by biome (people per km² equivalent), averaged across all continents</caption>
+<caption>Carrying capacity by biome (people per km² equivalent), by area across all continents and de-duplicated across continent overlaps. Read the median: capacity is a product of three skewed terms and its mean sits well above typical ground.</caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Biome</th>
 <th style="text-align: right;">% of Land</th>
-<th style="text-align: right;">Mean Capacity</th>
+<th style="text-align: right;">Median</th>
+<th style="text-align: right;">p10</th>
+<th style="text-align: right;">p90</th>
+<th style="text-align: right;">Mean</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">Glacial/Arctic</td>
-<td style="text-align: right;">13.8</td>
-<td style="text-align: right;">5.9</td>
+<td style="text-align: right;">0.5</td>
+<td style="text-align: right;">5.8</td>
+<td style="text-align: right;">5.2</td>
+<td style="text-align: right;">6.8</td>
+<td style="text-align: right;">6.0</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Taiga</td>
-<td style="text-align: right;">9.2</td>
-<td style="text-align: right;">33.9</td>
+<td style="text-align: right;">9.0</td>
+<td style="text-align: right;">32.8</td>
+<td style="text-align: right;">29.8</td>
+<td style="text-align: right;">40.2</td>
+<td style="text-align: right;">33.6</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Desert</td>
-<td style="text-align: right;">0.0</td>
-<td style="text-align: right;">14.6</td>
+<td style="text-align: right;">11.0</td>
+<td style="text-align: right;">15.8</td>
+<td style="text-align: right;">12.8</td>
+<td style="text-align: right;">18.8</td>
+<td style="text-align: right;">15.9</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Grassland</td>
-<td style="text-align: right;">13.1</td>
-<td style="text-align: right;">82.5</td>
+<td style="text-align: right;">4.5</td>
+<td style="text-align: right;">72.8</td>
+<td style="text-align: right;">67.2</td>
+<td style="text-align: right;">90.2</td>
+<td style="text-align: right;">75.7</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Temperate Forest</td>
-<td style="text-align: right;">27.2</td>
-<td style="text-align: right;">138.1</td>
+<td style="text-align: right;">14.5</td>
+<td style="text-align: right;">141.2</td>
+<td style="text-align: right;">117.8</td>
+<td style="text-align: right;">171.8</td>
+<td style="text-align: right;">143.8</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Tropical Forest</td>
-<td style="text-align: right;">24.7</td>
-<td style="text-align: right;">217.6</td>
+<td style="text-align: right;">9.3</td>
+<td style="text-align: right;">226.2</td>
+<td style="text-align: right;">185.2</td>
+<td style="text-align: right;">239.2</td>
+<td style="text-align: right;">221.9</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Mountainous</td>
-<td style="text-align: right;">11.4</td>
-<td style="text-align: right;">49.3</td>
+<td style="text-align: right;">12.5</td>
+<td style="text-align: right;">51.8</td>
+<td style="text-align: right;">37.2</td>
+<td style="text-align: right;">56.8</td>
+<td style="text-align: right;">49.1</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Tundra</td>
-<td style="text-align: right;">0.5</td>
-<td style="text-align: right;">22.7</td>
+<td style="text-align: right;">2.0</td>
+<td style="text-align: right;">23.8</td>
+<td style="text-align: right;">20.8</td>
+<td style="text-align: right;">27.8</td>
+<td style="text-align: right;">23.9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Savanna</td>
+<td style="text-align: right;">13.9</td>
+<td style="text-align: right;">129.8</td>
+<td style="text-align: right;">102.2</td>
+<td style="text-align: right;">147.2</td>
+<td style="text-align: right;">127.3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Dry-Summer Scrub</td>
+<td style="text-align: right;">3.2</td>
+<td style="text-align: right;">57.8</td>
+<td style="text-align: right;">50.8</td>
+<td style="text-align: right;">75.2</td>
+<td style="text-align: right;">61.4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Steppe</td>
+<td style="text-align: right;">18.6</td>
+<td style="text-align: right;">41.2</td>
+<td style="text-align: right;">33.8</td>
+<td style="text-align: right;">50.2</td>
+<td style="text-align: right;">42.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Cold Desert</td>
+<td style="text-align: right;">1.0</td>
+<td style="text-align: right;">10.2</td>
+<td style="text-align: right;">8.2</td>
+<td style="text-align: right;">11.8</td>
+<td style="text-align: right;">10.0</td>
 </tr>
 </tbody>
 </table>
